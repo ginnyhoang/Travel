@@ -99,6 +99,7 @@
    .footer__contact-fill{
        display: flex;
        flex-direction: column;
+       padding: 0;
    }
 
    .proposals-destination-list{
