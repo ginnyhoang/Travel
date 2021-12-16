@@ -63,7 +63,9 @@
         margin-left: 0;
     }
 
-    
+    .footer__info {
+    flex-wrap: wrap;
+   }
    
     
 }
