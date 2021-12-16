@@ -34,7 +34,7 @@ html{
 
 .underline{
     position: relative;
-    z-index: 99;
+    z-index: 0;
 }
 .m-t-60-b-35{
     margin: 60px  auto  35px;
