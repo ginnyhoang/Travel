@@ -98,3 +98,8 @@ html{
     }
 }
 
+
+.open {
+    transform: translateX(0%) !important;
+}
+
