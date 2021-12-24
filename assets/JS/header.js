@@ -6,10 +6,10 @@ var closeOption = document.querySelector('.header__menu-option-close');
 
 // // // Mở Header Menu Option
 menuBtn.onclick = function () {
-    openOption.style.transform = 'translateX(0%)';
+    openOption.classList.add('open');
 }
 
 // Đóng option
 closeOption.onclick = function () {
-    openOption.style.transform = 'translateX(100%)';
+    openOption.classList.remove('open');
 }
