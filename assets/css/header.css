@@ -378,6 +378,8 @@
 }
 
 
+
+
 .header__menu-tb-mb-option-list{
     list-style: none;
     padding-left: 0;
@@ -386,13 +388,6 @@
 
 .header__menu-tb-mb-option-item{
     margin-bottom: 30px;
-}
-
-.header__menu-list-icon-tablet-mobile {
-    width: 25px;
-    font-size: 28px;
-    color: var(--white-color);
-    cursor: pointer;
 }
 
 
@@ -427,5 +422,10 @@
 
 .header__menu-tb-mb-close i {
     color: var(--white-color);
+}
+
+
+.header__menu-tb-mb-close i:hover{
+    cursor: pointer;
    animation: rotateClose ease 0.5s forwards;
 }
