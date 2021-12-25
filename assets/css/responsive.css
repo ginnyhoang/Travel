@@ -17,7 +17,7 @@
     }
 
     .header__menu-tablet-mobile{
-        /* display: block; */
+        display: block; 
     }
 
     .header__menu-list{
