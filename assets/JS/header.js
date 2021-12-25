@@ -13,3 +13,19 @@ menuBtn.onclick = function () {
 closeOption.onclick = function () {
     openOption.classList.remove('open');
 }
+
+
+
+
+// Đóng mở menu main mobile, tablet
+var menuBtnTLMB = document.querySelector('.header__menu-list-icon-tablet-mobile');
+var closeOptionMBTL = document.querySelector('.header__menu-tb-mb-close');
+var optionMBTL = document.querySelector('.header__menu-tb-mb-option');
+
+menuBtnTLMB.onclick = function () {
+    optionMBTL.classList.add('open');
+}
+
+closeOptionMBTL.onclick = function () {
+    optionMBTL.classList.remove('open');
+}
