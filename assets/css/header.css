@@ -380,6 +380,13 @@
     margin-bottom: 30px;
 }
 
+.header__menu-list-icon-tablet-mobile {
+    width: 25px;
+    font-size: 28px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
 
 .header__menu-tb-mb-option-link{
     text-decoration: none;
