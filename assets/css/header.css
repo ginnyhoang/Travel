@@ -426,4 +426,5 @@
 
 .header__menu-tb-mb-close i {
     color: var(--white-color);
+   animation: rotateClose ease 0.5s forwards;
 }
