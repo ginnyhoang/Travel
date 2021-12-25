@@ -1,5 +1,5 @@
 // Đóng mở Header Menu Option
-var menuBtn = document.querySelector('.header__menu-list');
+var menuBtn = document.querySelector('.header__menu-list-icon');
 var openOption = document.querySelector('.header__menu-option');
 var closeOption = document.querySelector('.header__menu-option-close');
 
